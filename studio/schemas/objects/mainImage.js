@@ -1,8 +1,7 @@
 export default {
   name: 'mainImage',
-  title: 'Image',
+  title: 'Afbeelding',
   type: 'image',
-  description: 'Used for social media previews etc. Upload the highest possible resolution.',
   options: {
     hotspot: true
   },

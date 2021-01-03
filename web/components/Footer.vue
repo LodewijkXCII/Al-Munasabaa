@@ -1,72 +1,63 @@
 <template>
-  <footer class="footer">
-    <nav>
-      <nuxt-link to="/">Home</nuxt-link>
-      <nuxt-link to="/sessions">Sessions</nuxt-link>
-      <nuxt-link to="/speakers">Speakers</nuxt-link>
-      <nuxt-link to="/code-of-conduct">Code of conduct</nuxt-link>
-      <a v-if="eventInformation.venue" :href="eventInformation.ticket"
-        >Tickets
-      </a>
-    </nav>
-    <address v-if="eventInformation.venue" class="venue">
-      <div>{{ eventInformation.venue.name }}</div>
-      <div>
-        {{ eventInformation.venue.postCode }} {{ eventInformation.venue.city }}
+  <footer class="bg-gray-700 py-8">
+    <div class="top container mx-auto text-center">
+      <img
+        class="block w-auto min-h-full mx-auto mb-4"
+        src="~/assets/img/al_manusabaa_logo_small.png"
+        alt="Workflow"
+      />
+      <p>Luxary Catering</p>
+      <div class="keywords">
+        <p>Great Food | Great Service</p>
       </div>
-      <div>{{ eventInformation.venue.country }}</div>
-    </address>
-    <div class="power">
-      Powered by <a href="https://nuxtjs.org">Nuxt.js</a> and
-      <a href="https://www.sanity.io">Sanity.io</a> {{ year }}
+    </div>
+    <div class="links text-xs gold container mx-auto text-center my-3">
+      <nuxt-link to="/" class="mx-2">Home</nuxt-link>
+      <nuxt-link to="/" class="mx-2">Wie zijn wij</nuxt-link>
+      <nuxt-link to="/" class="mx-2">Catering</nuxt-link>
+      <nuxt-link to="/" class="mx-2">Zakelijk</nuxt-link>
+      <nuxt-link to="/" class="mx-2">Impressie</nuxt-link>
     </div>
   </footer>
 </template>
 
 <script>
 export default {
-  props: {
-    title: {
-      type: String,
-      default: 'No title set'
-    }
-  },
-  data: data => {
-    if (!data.$store.state) {
-      return
-    }
-    return {
-      year: new Date().getFullYear(),
-      eventInformation: data.$store.state.eventInformation
-    }
-  }
+  components: {}
 }
 </script>
 
-<style scoped>
-@import '../styles/custom-properties.css';
+<style lang="scss">
+@import '@/assets/scss/main.scss';
 
-.footer {
-  padding: 1.5rem;
-  text-align: center;
-  font-size: var(--font-small-size);
-  line-height: var(--font-small-line-height);
-}
+// //FOOTER//
+// footer {
+//   background-color: $secondary-color;
+//   width: 100%;
+//   margin-top: 2rem;
+// }
 
-.footer a {
-  color: inherit;
-  text-decoration: inherit;
-  padding: 1em 0.5em;
-}
+// .footer-wrapper {
+//   text-align: center;
+//   padding: 1rem 0;
+// }
 
-address.venue {
-  margin: 3em 1.5em 1.5em;
-  font-style: inherit;
-}
+// .footer-wrapper img {
+//   height: 75px;
+//   width: auto;
+//   margin-bottom: 1rem;
+// }
 
-.power a {
-  display: inline;
-  padding: 0;
-  text-decoration: underline;
-}
+// .footer-wrapper p {
+//   font-size: 0.8rem;
+// }
+
+// .footer-wrapper .links a {
+//   margin: 0 0.5rem;
+//   font-size: 0.7rem;
+// }
+
+// .footer-wrapper .links a:hover {
+//   color: $gold-color;
+// }
 </style>

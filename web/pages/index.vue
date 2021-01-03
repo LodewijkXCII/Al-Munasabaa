@@ -1,145 +1,297 @@
 <template>
-  <section class="container">
-    <header class="header">
-      <h1 class="title">{{ info.name }}</h1>
-      <p class="subtitle">{{ info.description }}</p>
-      <div class="dates">
-        {{ new Date(info.schedule.from) | dateFilter('DD MMMM ha') }}
-        &ndash;
-        {{ new Date(info.schedule.to) | dateFilter('ha') }}
-      </div>
-      <div class="venue">{{ info.venue.name }}, {{ info.venue.city }}</div>
-    </header>
-
-    <figure :v-if="info.image">
-      <SanityImage
-        :image="info.image"
-        :width="1800"
-        :height="500"
-        class="mainImage"
+  <div>
+    <div class="section img-full landing">
+      <img
+        src="@/assets/img/flower_gold_table.jpg"
+        alt="Romantic Blue overview"
+        class="top-img"
       />
-      <figcaption>{{ info.image.caption }}</figcaption>
-    </figure>
-
-    <div class="sessionListContainer">
-      <h2 class="sessionListTitle">Schedule</h2>
-      <SessionList :program="program" :info="info" />
+      <div class="img-full container mx-auto full text-center">
+        <h1 class="title lg:text-7xl md:text-6xl gold text-4xl my-4">
+          Al-Munasabaa
+        </h1>
+        <h2 class="subtitle lg:text-2xl md:text-xl text-l">
+          Luxary Catering
+        </h2>
+        <div class="keywords-front lg:text-4xl md:text-3xl text-2xl my-2">
+          <p><span>Great Food | Great Service</span></p>
+        </div>
+      </div>
     </div>
-  </section>
+
+    <section class="container mx-auto callout" id="wiezijnwij">
+      <h2 class="text-4xl font-bold text-center mb-6 mt-6">Wie zijn wij?</h2>
+      <div class="flex flex-wrap px-6">
+        <div class="w-full lg:w-1/3   md:px-4 lg:px-6 py-5">
+          <div class="bg-gray-700 hover:shadow-xl text-center py-6">
+            <font-awesome-icon
+              :icon="['fas', 'check-double']"
+              class="fa-2x gold"
+            />
+            <h4 class="gold pt-4 pb-1 pm-4 font-bold">Kennis van de markt</h4>
+            <p class="pb-4 mx-8">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
+              sunt!
+            </p>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/3   md:px-4 lg:px-6 py-5">
+          <div class="bg-gray-700 hover:shadow-xl text-center py-6">
+            <font-awesome-icon :icon="['fas', 'truck']" class="fa-2x gold" />
+            <h4 class="gold pt-4 pb-1 pm-4 font-bold">
+              Achtergrond in logistiek
+            </h4>
+            <p class="pb-4 mx-8">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
+              sunt!
+            </p>
+          </div>
+        </div>
+        <div class="w-full lg:w-1/3   md:px-4 lg:px-6 py-5">
+          <div class="bg-gray-700 hover:shadow-xl text-center py-6">
+            <font-awesome-icon :icon="['fas', 'users']" class="fa-2x gold" />
+            <h4 class="gold pt-4 pb-1 pm-4 font-bold">Familiebedrijf</h4>
+            <p class="pb-4 mx-8">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
+              sunt!
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="py-20 px-8 grid grid-cols-6 gap-8">
+        <div class="col-span-4 my-auto">
+          <h2 class="gold text-4xl font-bold text-center mb-6">Ons verhaal</h2>
+          <p class="my-4">
+            Welkom bij Al-Munasaba. Om u een beter beeld te geven van wie wij
+            zijn en wat wij voor u kunnen betekenen, stellen wij ons graag aan u
+            voor. Al Munasaba staat voor een feestelijke gelegenheid, letterlijk
+            vertaald vanuit het Arabisch. Bij een goed feest hoort goed en
+            lekker eten; en daar komen wij om de hoek kijken. Wij zorgen als
+            cateraar voor heerlijk, kwalitatief eten op iedere feestelijke
+            gelegenheid.
+          </p>
+          <p class="my-4">
+            Wij zijn een jong en gepassioneerd team met een specialisatie in de
+            Marokkaanse keuken en zijn voornamelijk werkzaam in de Marokkaanse
+            trouwbranche.
+          </p>
+        </div>
+        <div class="col-span-2 my-auto">
+          <img
+            alt="Placeholder"
+            class="block h-auto w-full"
+            src="https://picsum.photos/600/400/?random"
+          />
+        </div>
+      </div>
+    </section>
+    <!-- END SECTION WIE ZIJN WIJ -->
+
+    <section class="section-C container mx-auto py-16" id="pakketten">
+      <div class="img-full ">
+        <h2 class="gold text-4xl font-bold text-center mb-6">
+          De verschillende Pakketten
+        </h2>
+        <div class="grid md:grid-cols-4 p-8 gap-8 m-5">
+          <Paketten
+            v-for="pakket in paketten.paketten"
+            :key="pakket.id"
+            :description="pakket.description"
+            :gerechten="pakket.gerechten"
+            :prijs="pakket.prijs"
+            :slug="pakket.slug.current"
+            :titel="pakket.titel"
+            :decoraties="pakket.decoraties"
+            :dranken="pakket.dranken"
+            :diner="pakket.diner"
+          />
+        </div>
+      </div>
+    </section>
+    <section class="team">
+      <h2 class="gold text-4xl font-bold text-center mb-6">Het Team</h2>
+      <div class="gallery grid grid-rows-2 grid-cols-4 pt-8">
+        <img
+          alt="Placeholder"
+          class="block h-full w-full row-span-2"
+          src="https://picsum.photos/400/600/?random"
+        />
+        <img
+          alt="Placeholder"
+          class="block h-full w-full"
+          src="https://picsum.photos/600/400/?random"
+        />
+        <img
+          alt="Placeholder"
+          class="block h-full w-full"
+          src="https://picsum.photos/600/400/?random"
+        />
+        <img
+          alt="Placeholder"
+          class="block h-full w-full row-span-2"
+          src="https://picsum.photos/400/600/?random"
+        />
+        <img
+          alt="Placeholder"
+          class="block h-full w-full col-span-2"
+          src="https://picsum.photos/1200/400/?random"
+        />
+      </div>
+    </section>
+  </div>
 </template>
 
 <script>
-import { dateFilter } from 'vue-date-fns'
+import groq from 'groq'
+import sanityClient from '~/sanityClient'
 
-import sanityClient from '../sanityClient'
-import SanityImage from '~/components/SanityImage'
-import SessionList from '~/components/SessionList'
-
-const query = `
-  {
-    "info": *[_id == "eventInformation"] {
-      ..., image { ..., asset->}
-    }[0]
-  }
-`
+import Paketten from '../components/paketten.vue'
 
 export default {
-  components: {
-    SanityImage,
-    SessionList
+  head: {
+    return: {
+      script: [
+        { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
+      ]
+    },
+    title: 'Home page 🚀',
+    meta: [
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Home page description'
+      }
+    ]
   },
-  filters: {
-    dateFilter
-  },
+  components: { Paketten },
   data() {
     return {
-      program: this.$store.getters.getProgram
+      paketten: []
     }
   },
-  async asyncData() {
-    return await sanityClient.fetch(query)
-  },
-  head() {
-    if (!this || !this.info) {
-      return
-    }
-    return {
-      title: this.info.name,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.info.description
-        },
-        {
-          hid: 'keywords',
-          name: 'keywords',
-          content: this.info.keywords.join(',')
-        }
-      ]
-    }
+  async created() {
+    const query = groq`
+  {
+    "paketten": *[_type == 'paketten']{ ..., 'decoraties': decoraties[]->, 'gerechten':gerechten[]->}
+  }
+`
+    const response = await sanityClient.fetch(query)
+    this.paketten = response
   }
 }
 </script>
 
-<style scoped>
-@import '../styles/custom-media.css';
-@import '../styles/custom-properties.css';
-
-.container {
-  padding: 1.5rem 0;
-  box-sizing: border-box;
-  min-height: calc(100% - 72px - 216px);
-}
-
-.header {
-  padding: 0 1.5rem;
-  text-align: center;
-}
-
-.title + p + .dates {
-  margin-bottom: 0;
-  font-weight: 600;
-}
-
-.title + p + .dates + .venue {
-  font-size: var(--font-small-size);
-  line-height: var(--font-small-line-height);
-  margin-bottom: 5rem;
-}
-
-figure {
-  margin: 0 0 3em;
-}
-
-figcaption {
-  font-size: var(--font-small-size);
-  line-height: var(--font-small-line-height);
-  padding: 0.25rem 1.5rem;
-}
-
-.mainImage {
+<style lang="scss">
+@import '../assets/scss/main.scss';
+.top-img {
+  height: 100vh;
+  position: absolute;
   width: 100%;
-  vertical-align: top;
+  top: 0;
+  z-index: -1;
 }
 
-.sessionListTitle {
-  text-align: center;
-  font-weight: 600;
-  font-size: var(--font-title2-size);
-  line-height: var(--font-title2-line-height);
-  margin: 0 0 3rem;
+.top-img-half {
+  height: 80vh;
+  position: absolute;
+  width: 100%;
+  top: 0;
+  z-index: -1;
+}
 
-  @media (--media-min-medium) {
-    font-size: var(--font-title1-size);
-    line-height: var(--font-title1-line-height);
+.full {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.half-full {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.bg-color-full {
+  width: 100%;
+  background-color: $blue-opacity;
+}
+
+.keywords-front,
+.keywords {
+  text-align: center;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .keywords {
+    text-align: center;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: '';
+      border-top: 1px solid white;
+      width: 5%;
+      position: absolute;
+      top: 12px;
+    }
+
+    &::before {
+      left: 38%;
+    }
+
+    &::after {
+      right: 38%;
+    }
+
+    span {
+      display: inline-block;
+      position: relative;
+    }
+  }
+  .keywords-front {
+    text-align: center;
+    position: relative;
+
+    &::before,
+    &::after {
+      content: '';
+      border-top: 3px solid white;
+      width: 8%;
+      position: absolute;
+      top: 20px;
+    }
+
+    &::before {
+      left: 25%;
+    }
+
+    &::after {
+      right: 25%;
+    }
+
+    span {
+      display: inline-block;
+      position: relative;
+    }
   }
 }
 
-.sessionListContainer {
-  max-width: var(--width-small);
-  margin: 0 auto;
-  padding: 0 1.5rem;
-  box-sizing: border-box;
+.keyfeatures {
+  text-align: center;
+  display: flex;
+}
+
+.feature {
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  svg {
+    color: $gold-color;
+    margin: 0.5rem;
+  }
 }
 </style>

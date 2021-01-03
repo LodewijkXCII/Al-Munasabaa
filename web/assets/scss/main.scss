@@ -1,0 +1,30 @@
+$primary-color: #1d283a;
+$secondary-color: #37404f;
+$gold-color: #bea950;
+$gold-opacity: #beaa5052;
+$blue-opacity: rgba(55, 64, 79, 0.7);
+$font-lora: 'Lora', serif;
+
+@import url('https://fonts.googleapis.com/css?family=Karla&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #1d283a;
+  font-family: 'Karla', sans-serif;
+  font-weight: normal;
+  color: #ffffff;
+}
+
+img {
+  height: auto;
+  width: 100%;
+}

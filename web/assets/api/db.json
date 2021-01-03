@@ -1,0 +1,422 @@
+{
+  "pakketten": [
+    {
+      "id": 1,
+      "name": "Brons",
+      "description": "Met een uitgesproken kleur blauw, in combinatie met mintgroen en wit, wordt de zaal tot leven gebracht. Geen standaardkleuren, maar uniek en eigentijds. De frisse kleuren geven de aankleding een eigenzinnig karakter, dat stijl, klasse en vooral romantiek omarmt.\n\n“Blue is the new color of love”",
+      "url": "https://source.unsplash.com/random/250x250",
+      "price": 25,
+      "gerechten": [
+        {
+          "name": "Visbastila",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kipbastila",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kippen",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kalfsvlees in jus",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Luxe salade",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kip uit de oven",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Gestoofd lamsvlees",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Luxe vissalade",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Tapanade salade",
+          "gang": "Salade",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Victoriabaarsfilet",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Dorades",
+          "gang": "Salade",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Silver",
+      "description": "Met een uitgesproken kleur blauw, in combinatie met mintgroen en wit, wordt de zaal tot leven gebracht. Geen standaardkleuren, maar uniek en eigentijds. De frisse kleuren geven de aankleding een eigenzinnig karakter, dat stijl, klasse en vooral romantiek omarmt.\n“Blue is the new color of love”",
+      "url": "https://source.unsplash.com/random/250x250",
+      "price": 25,
+      "gerechten": [
+        {
+          "name": "Visbastila",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kipbastila",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kippen",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kalfsvlees in jus",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Luxe salade",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kip uit de oven",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Gestoofd lamsvlees",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Luxe vissalade",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Tapanade salade",
+          "gang": "Salade",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Victoriabaarsfilet",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Dorades",
+          "gang": "Salade",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Goud",
+      "description": "Met een uitgesproken kleur blauw, in combinatie met mintgroen en wit, wordt de zaal tot leven gebracht. Geen standaardkleuren, maar uniek en eigentijds. De frisse kleuren geven de aankleding een eigenzinnig karakter, dat stijl, klasse en vooral romantiek omarmt.\n“Blue is the new color of love”",
+      "url": "https://source.unsplash.com/random/250x250",
+      "price": 25,
+      "gerechten": [
+        {
+          "name": "Visbastila",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kipbastila",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kippen",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kalfsvlees in jus",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Luxe salade",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kip uit de oven",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Gestoofd lamsvlees",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Luxe vissalade",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Tapanade salade",
+          "gang": "Salade",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Victoriabaarsfilet",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Dorades",
+          "gang": "Salade",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Diamant",
+      "description": "Met een uitgesproken kleur blauw, in combinatie met mintgroen en wit, wordt de zaal tot leven gebracht. Geen standaardkleuren, maar uniek en eigentijds. De frisse kleuren geven de aankleding een eigenzinnig karakter, dat stijl, klasse en vooral romantiek omarmt.\n“Blue is the new color of love”",
+      "url": "https://source.unsplash.com/random/250x250",
+      "price": 25,
+      "gerechten": [
+        {
+          "name": "Visbastila",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kipbastila",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kippen",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kalfsvlees in jus",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Luxe salade",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Kip uit de oven",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Gestoofd lamsvlees",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Luxe vissalade",
+          "gang": "Hoofdgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Tapanade salade",
+          "gang": "Salade",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Victoriabaarsfilet",
+          "gang": "Voorgerecht",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        },
+        {
+          "name": "Dorades",
+          "gang": "Salade",
+          "description": "Rijkelijk gevuld met verse vis en gegarneerd met garnalen"
+        }
+      ]
+    }
+  ],
+  "themas": [
+    {
+      "id": 1,
+      "title": "Fairytale Pink",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aliquid odit!",
+      "link": "fairytale-pink",
+      "pakketten": [
+        {
+          "title": "Brons"
+        },
+        {
+          "title": "Silver"
+        },
+        {
+          "title": "Goud"
+        },
+        {
+          "title": "Diamant"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Peachy Paradise",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aliquid odit!",
+      "link": "peachy-paradise",
+      "pakketten": [
+        {
+          "title": "Brons"
+        },
+        {
+          "title": "Silver"
+        },
+        {
+          "title": "Goud"
+        },
+        {
+          "title": "Diamant"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Classy Rose",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aliquid odit!",
+      "link": "classy-rose",
+      "pakketten": [
+        {
+          "title": "Brons"
+        },
+        {
+          "title": "Silver"
+        },
+        {
+          "title": "Goud"
+        },
+        {
+          "title": "Diamant"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Romantic Blue",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aliquid odit!",
+      "link": "romantic-blue",
+      "pakketten": [
+        {
+          "title": "Brons"
+        },
+        {
+          "title": "Silver"
+        },
+        {
+          "title": "Goud"
+        },
+        {
+          "title": "Diamant"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Royal Blue",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aliquid odit!",
+      "link": "royal-blue",
+      "pakketten": [
+        {
+          "title": "Brons"
+        },
+        {
+          "title": "Silver"
+        },
+        {
+          "title": "Goud"
+        },
+        {
+          "title": "Diamant"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Dream Gold",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aliquid odit!",
+      "link": "dream-gold",
+      "pakketten": [
+        {
+          "title": "Brons"
+        },
+        {
+          "title": "Silver"
+        },
+        {
+          "title": "Goud"
+        },
+        {
+          "title": "Diamant"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Silver Mirror",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aliquid odit!",
+      "link": "silver-mirror",
+      "pakketten": [
+        {
+          "title": "Brons"
+        },
+        {
+          "title": "Silver"
+        },
+        {
+          "title": "Goud"
+        },
+        {
+          "title": "Diamant"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Lorem Ipsum",
+      "description": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Delectus, aliquid odit!",
+      "link": "lorem-ipsum",
+      "pakketten": [
+        {
+          "title": "Brons"
+        },
+        {
+          "title": "Silver"
+        },
+        {
+          "title": "Goud"
+        },
+        {
+          "title": "Diamant"
+        }
+      ]
+    }
+  ]
+}
