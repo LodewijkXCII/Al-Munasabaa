@@ -5,7 +5,7 @@ import { MdGavel } from 'react-icons/md'
 import { MdInfoOutline as MdInfo } from 'react-icons/md'
 
 const hiddenDocTypes = listItem =>
-  !['program', 'session', 'person', 'eventInformation', 'codeOfConduct'].includes(listItem.getId())
+  !['decoratie', 'gerechten', 'paketten'].includes(listItem.getId())
 
 export default () =>
   S.list()

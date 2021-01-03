@@ -5,7 +5,6 @@ import createSchema from 'part:@sanity/base/schema-creator'
 import schemaTypes from 'all:part:@sanity/base/schema-type'
 
 // document types
-
 import paketten from './documents/paketten'
 import gerechten from './documents/gerechten'
 import decoratie from './documents/decoratie'
@@ -22,11 +21,9 @@ export default createSchema({
   types: schemaTypes.concat([
     // The following are document types which will appear
     // in the studio.
-
     paketten,
     gerechten,
     decoratie,
-
     // When added to this list, object types can be used as
     mainImage
     // { type: 'typename' } in other document schemas
