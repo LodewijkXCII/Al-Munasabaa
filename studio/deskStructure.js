@@ -1,8 +1,5 @@
 import S from '@sanity/desk-tool/structure-builder'
-import { MdPerson } from 'react-icons/md'
-import { MdEvent as MdEventNote } from 'react-icons/md'
-import { MdGavel } from 'react-icons/md'
-import { MdInfoOutline as MdInfo } from 'react-icons/md'
+import {MdPerson, MdEvent as MdEventNote, MdGavel, MdInfoOutline as MdInfo} from 'react-icons/md'
 
 const hiddenDocTypes = listItem =>
   !['decoratie', 'gerechten', 'paketten'].includes(listItem.getId())

@@ -6,7 +6,7 @@ export default {
         templateRepoId: 'sanity-io/sanity-template-nuxt-events'
       }
     },
-    { name: 'structure-menu' },
+    {name: 'structure-menu'},
     {
       name: 'project-info',
       options: {
@@ -39,15 +39,15 @@ export default {
             value: 'https://github.com/LodewijkXCII/Al-Munasabaa',
             category: 'Code'
           },
-          { title: 'Frontend', value: 'https://al-munasabaa-web.netlify.app', category: 'apps' }
+          {title: 'Frontend', value: 'https://al-munasabaa-web.netlify.app', category: 'apps'}
         ]
       }
     },
-    { name: 'project-users', layout: { height: 'auto' } },
+    {name: 'project-users', layout: {height: 'auto'}},
     {
       name: 'document-list',
-      options: { title: 'Recently created sessions', order: '_createdAt desc' },
-      layout: { width: 'medium' }
+      options: {title: 'Recently created sessions', order: '_createdAt desc'},
+      layout: {width: 'medium'}
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "root": true,
   "project": {
-    "name": "Al-Munasabaa"
+    "name": "studio"
   },
   "api": {
-    "projectId": "ss0t5hvt",
+    "projectId": "kcc8txkn",
     "dataset": "production"
   },
   "plugins": [

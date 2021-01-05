@@ -3,6 +3,8 @@
 
 # Dependency directories
 /node_modules
+/_bin
+/_old_studio
 
 # lerna files
 /lerna-debug.log

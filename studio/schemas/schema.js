@@ -1,21 +1,21 @@
 // First, we must import the schema creator
-import createSchema from 'part:@sanity/base/schema-creator'
+import createSchema from "part:@sanity/base/schema-creator";
 
 // Then import schema types from any plugins that might expose them
-import schemaTypes from 'all:part:@sanity/base/schema-type'
+import schemaTypes from "all:part:@sanity/base/schema-type";
 
 // document types
-import paketten from './documents/paketten'
-import gerechten from './documents/gerechten'
-import decoratie from './documents/decoratie'
+import paketten from "./documents/paketten";
+import gerechten from "./documents/gerechten";
+import decoratie from "./documents/decoratie";
 
 // Object types
-import mainImage from './objects/mainImage'
+import mainImage from "./objects/mainImage";
 
 // Then we give our schema to the builder and provide the result to Sanity
 export default createSchema({
   // We name our schema
-  name: 'default',
+  name: "default",
   // Then proceed to concatenate our our document type
   // to the ones provided by any plugins that are installed
   types: schemaTypes.concat([
@@ -25,7 +25,7 @@ export default createSchema({
     gerechten,
     decoratie,
     // When added to this list, object types can be used as
-    mainImage
+    mainImage,
     // { type: 'typename' } in other document schemas
-  ])
-})
+  ]),
+});

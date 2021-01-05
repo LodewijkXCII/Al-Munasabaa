@@ -1,45 +1,45 @@
 export default {
-  type: 'document',
-  name: 'decoratie',
-  title: 'Decoratie',
+  type: "document",
+  name: "decoratie",
+  title: "Decoratie",
   fields: [
     {
-      name: 'titel',
-      title: 'Titel',
-      type: 'string'
+      name: "titel",
+      title: "Titel",
+      type: "string",
     },
     {
-      name: 'slug',
-      title: 'Slug',
-      type: 'slug',
-      description: 'Dit is de link die verwijst naar het pakket',
+      name: "slug",
+      title: "Slug",
+      type: "slug",
+      description: "Dit is de link die verwijst naar het pakket",
       options: {
-        source: 'titel',
-        maxLength: 96
-      }
+        source: "titel",
+        maxLength: 96,
+      },
     },
     {
-      name: 'description',
-      type: 'text',
-      title: 'Omschrijving',
-      description: 'Omschrijving voor het gerecht.'
+      name: "description",
+      type: "text",
+      title: "Omschrijving",
+      description: "Omschrijving voor het gerecht.",
     },
     {
-      name: 'headerimg',
-      title: 'Afbeelding',
-      type: 'mainImage'
+      name: "headerimg",
+      title: "Afbeelding",
+      type: "mainImage",
     },
     {
-      name: 'imagesGallery',
-      title: 'Images gallery',
-      type: 'array',
-      of: [{ type: 'image' }]
-    }
+      name: "imagesGallery",
+      title: "Images gallery",
+      type: "array",
+      of: [{ type: "image" }],
+    },
   ],
   preview: {
     select: {
-      title: 'titel',
-      subtitle: 'slug.current'
-    }
-  }
-}
+      title: "titel",
+      subtitle: "slug.current",
+    },
+  },
+};
