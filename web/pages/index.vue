@@ -235,7 +235,7 @@ export default {
   top: 0;
   width: 100%;
   height: 100%;
-  z-index: 1;
+  z-index: -1;
   opacity: 0.2;
   background-image: url(~assets/img/water_glass_pour.jpg);
   background-position: 50% 0;
