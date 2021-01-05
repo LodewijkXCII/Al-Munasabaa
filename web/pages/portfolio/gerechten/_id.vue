@@ -65,7 +65,6 @@ export default {
   }
 `
     const response = await sanityClient.fetch(query)
-    console.log(response)
     this.pakket = response.gerechten
   }
 }

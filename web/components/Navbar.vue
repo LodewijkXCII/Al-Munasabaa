@@ -59,17 +59,17 @@
           </button>
         </div>
         <div
-          class="flex-1 flex items-center justify-between sm:items-stretch sm:justify-between"
+          class="flex-1 flex sm:items-center justify-between items-stretch sm:justify-between"
         >
           <div class="flex-shrink-0 flex items-center">
             <nuxt-link to="/">
               <img
-                class="block lg:hidden h-8 w-auto"
+                class="block lg:hidden h-14 p-4 w-auto"
                 src="~/assets/img/al_manusabaa_logo_small.png"
                 alt="Workflow"
               />
               <img
-                class="hidden lg:block h-8 w-auto"
+                class="hidden lg:block h-14 m-4 w-auto"
                 src="~/assets/img/al_manusabaa_logo_small.png"
                 alt="Workflow"
               />
@@ -227,13 +227,14 @@ export default {
 @import '../assets/scss/main.scss';
 
 nav {
-  background: rgba(242, 242, 242, 0.6);
+  background: rgba(29, 40, 58, 0.5);
   position: absolute;
   left: 0;
   top: 0;
   right: 0;
+  padding: 0.5rem 0;
   .gold {
-    color: $primary-color;
+    color: white;
     &:hover {
       color: $gold-color;
       border-bottom: 1px solid $gold-color;

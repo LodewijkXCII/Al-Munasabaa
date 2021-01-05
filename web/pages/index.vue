@@ -87,8 +87,8 @@
     </section>
     <!-- END SECTION WIE ZIJN WIJ -->
 
-    <section class="section-C container mx-auto py-16" id="pakketten">
-      <div class="img-full ">
+    <section class="my-8 bg-img" id="pakketten">
+      <div class="img-full section-C container mx-auto py-16">
         <h2 class="gold text-4xl font-bold text-center mb-6">
           De verschillende Pakketten
         </h2>
@@ -108,32 +108,32 @@
         </div>
       </div>
     </section>
-    <section class="team">
+    <section class="team my-10">
       <h2 class="gold text-4xl font-bold text-center mb-6">Het Team</h2>
       <div class="gallery grid grid-rows-2 grid-cols-4 pt-8">
         <img
           alt="Placeholder"
-          class="block h-full w-full row-span-2"
+          class="block  row-span-2"
           src="https://picsum.photos/400/600/?random"
         />
         <img
           alt="Placeholder"
-          class="block h-full w-full"
+          class="block h-full"
           src="https://picsum.photos/600/400/?random"
         />
         <img
           alt="Placeholder"
-          class="block h-full w-full"
+          class="block h-full"
           src="https://picsum.photos/600/400/?random"
         />
         <img
           alt="Placeholder"
-          class="block h-full w-full row-span-2"
+          class="block h-full row-span-2"
           src="https://picsum.photos/400/600/?random"
         />
         <img
           alt="Placeholder"
-          class="block h-full w-full col-span-2"
+          class="block h-full col-span-2"
           src="https://picsum.photos/1200/400/?random"
         />
       </div>
@@ -222,6 +222,24 @@ export default {
 .keywords {
   text-align: center;
   position: relative;
+}
+
+.bg-img {
+  position: relative;
+}
+.bg-img:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  opacity: 0.2;
+  background-image: url(~assets/img/water_glass_pour.jpg);
+  background-position: 50% 0;
+  background-size: cover;
 }
 @media screen and (min-width: 1024px) {
   .keywords {
