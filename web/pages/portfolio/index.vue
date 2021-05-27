@@ -16,18 +16,18 @@
     <div class="py-20 px-8 container mx-auto" id="gerechten">
       <div class="col-span-4 my-auto">
         <h2 class="gold text-4xl font-bold text-center mb-6">Gerechten</h2>
+        <h3 class="gold text-xl font-bold text-center mb-3">
+          Moderne gerechten, traditionele kwaliteit.
+        </h3>
         <p class="my-4">
-          Welkom bij Al-Munasaba. Om u een beter beeld te geven van wie wij zijn
-          en wat wij voor u kunnen betekenen, stellen wij ons graag aan u voor.
-          Al Munasaba staat voor een feestelijke gelegenheid, letterlijk
-          vertaald vanuit het Arabisch. Bij een goed feest hoort goed en lekker
-          eten; en daar komen wij om de hoek kijken. Wij zorgen als cateraar
-          voor heerlijk, kwalitatief eten op iedere feestelijke gelegenheid.
-        </p>
-        <p class="my-4">
-          Wij zijn een jong en gepassioneerd team met een specialisatie in de
-          Marokkaanse keuken en zijn voornamelijk werkzaam in de Marokkaanse
-          trouwbranche.
+          Als vanzelfsprekend werken wij met enkel verse en pure ingrediënten
+          welke wij daags voor uw gelegenheid inkopen bij onze vaste
+          distributeurs. Met grote zorg en met behoud van de pure smaken worden
+          deze door onze koks op traditionele wijze verwerkt tot een heerlijk
+          smakenpallet. Wij hebben onze traditionele gerechten qua opmaak in een
+          modern jasje voor u gestoken en bieden naast traditionele gerechten
+          een scala aan meer eigentijdse variaties. Laat u verrassen door de
+          overweldigende smaken en de prachtige opmaak van onze gerechten.
         </p>
 
         <div class="grid grid-cols-3 gap-4">
@@ -83,19 +83,15 @@
       </div>
     </div>
     <div class="py-20 px-8 container mx-auto" id="decoraties">
-      <h2 class="gold text-4xl font-bold text-center mb-6">Decoraties</h2>
+      <h2 class="gold text-4xl font-bold text-center mb-6">Decoratielijnen</h2>
       <p class="my-4">
-        Welkom bij Al-Munasaba. Om u een beter beeld te geven van wie wij zijn
-        en wat wij voor u kunnen betekenen, stellen wij ons graag aan u voor. Al
-        Munasaba staat voor een feestelijke gelegenheid, letterlijk vertaald
-        vanuit het Arabisch. Bij een goed feest hoort goed en lekker eten; en
-        daar komen wij om de hoek kijken. Wij zorgen als cateraar voor heerlijk,
-        kwalitatief eten op iedere feestelijke gelegenheid.
-      </p>
-      <p class="my-4">
-        Wij zijn een jong en gepassioneerd team met een specialisatie in de
-        Marokkaanse keuken en zijn voornamelijk werkzaam in de Marokkaanse
-        trouwbranche.
+        Bij het opzetten van onze decoratielijnen proberen wij onze eigen stijl
+        te behouden. Iedere lijn representeert elegantie en klasse op
+        simplistische wijze. Hierdoor komen zelfs de kleinste details tot hun
+        recht. Met de verscheidene kleurschakeringen en accessoires binnen ons
+        assortiment, is er voor ieder wat wils. Maar op aanvraag kunnen wij ook
+        hierin aanvullingen of maatwerk leveren. Onze stijl laten wij met alle
+        liefde aansluiten op uw wensen.
       </p>
       <div class="grid grid-cols-4 gap-4">
         <div

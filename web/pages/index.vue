@@ -8,9 +8,9 @@
       />
       <div class="img-full container mx-auto full text-center">
         <h1 class="title lg:text-7xl md:text-6xl gold text-4xl my-4">
-          Al-Munasabaa
+          Almunasabaa
         </h1>
-        <h2 class="subtitle lg:text-2xl md:text-xl text-l">
+        <h2 class="subtitle lg:text-2xl md:text-xl alblue text-l">
           Luxary Catering
         </h2>
         <div class="keywords-front lg:text-4xl md:text-3xl text-2xl my-2">
@@ -29,21 +29,26 @@
               class="fa-2x gold"
             />
             <h4 class="gold pt-4 pb-1 pm-4 font-bold">Kennis van de markt</h4>
-            <p class="pb-4 mx-8">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
-              sunt!
+            <p class="py-4 mx-8 text-left">
+              Met meer dan 400 feesten op de teller durven wij te stellen dat we
+              ruime ervaring opgedaan hebben met het verzorgen van feesten. Wij
+              bedienen voornamelijk de Marokkaanse markt maar hebben daarnaast
+              ook ervaring met bijvoorbeeld de Turkse en Libanese keuken.
             </p>
           </div>
         </div>
         <div class="w-full lg:w-1/3   md:px-4 lg:px-6 py-5">
           <div class="bg-gray-700 hover:shadow-xl text-center py-6">
-            <font-awesome-icon :icon="['fas', 'truck']" class="fa-2x gold" />
+            <font-awesome-icon :icon="['fas', 'utensils']" class="fa-2x gold" />
             <h4 class="gold pt-4 pb-1 pm-4 font-bold">
-              Achtergrond in logistiek
+              Achtergrond in horeca
             </h4>
-            <p class="pb-4 mx-8">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
-              sunt!
+            <p class="py-4 mx-8  text-left">
+              Het hoogtepunt van het feest is voor ons als cateraar het moment
+              waarop onze gerechten uitgeserveerd worden. Door onze ervaring
+              binnen meerdere horecaconcepten weten we feilloos te bieden wat
+              een klant verwacht, onze gerechten worden tot in detail
+              uitgedacht.
             </p>
           </div>
         </div>
@@ -51,9 +56,11 @@
           <div class="bg-gray-700 hover:shadow-xl text-center py-6">
             <font-awesome-icon :icon="['fas', 'users']" class="fa-2x gold" />
             <h4 class="gold pt-4 pb-1 pm-4 font-bold">Familiebedrijf</h4>
-            <p class="pb-4 mx-8">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum,
-              sunt!
+            <p class="py-4 mx-8 text-left">
+              Al-Munasaba is een echt familiebedrijf, wat maakt dat wij kunnen
+              rekenen op een ijzersterke samenwerking onderling en u altijd kunt
+              rekenen op ons. Iedereen die komt te werken bij Al-Munasaba wordt
+              direct opgenomen in de familie, samen maken wij het feest.
             </p>
           </div>
         </div>
@@ -80,7 +87,7 @@
           <img
             alt="Placeholder"
             class="block h-auto w-full"
-            src="https://picsum.photos/600/400/?random"
+            src="@/assets/img/over_ons.jpg"
           />
         </div>
       </div>
@@ -108,36 +115,6 @@
         </div>
       </div>
     </section>
-    <section class="team my-10">
-      <h2 class="gold text-4xl font-bold text-center mb-6">Het Team</h2>
-      <div class="gallery grid grid-rows-2 grid-cols-4 pt-8">
-        <img
-          alt="Placeholder"
-          class="block  row-span-2"
-          src="https://picsum.photos/400/600/?random"
-        />
-        <img
-          alt="Placeholder"
-          class="block h-full"
-          src="https://picsum.photos/600/400/?random"
-        />
-        <img
-          alt="Placeholder"
-          class="block h-full"
-          src="https://picsum.photos/600/400/?random"
-        />
-        <img
-          alt="Placeholder"
-          class="block h-full row-span-2"
-          src="https://picsum.photos/400/600/?random"
-        />
-        <img
-          alt="Placeholder"
-          class="block h-full col-span-2"
-          src="https://picsum.photos/1200/400/?random"
-        />
-      </div>
-    </section>
   </div>
 </template>
 
@@ -154,7 +131,7 @@ export default {
         { src: 'https://identity.netlify.com/v1/netlify-identity-widget.js' }
       ]
     },
-    title: 'Home page 🚀',
+    title: 'Al-Munasaba | Luxary Catering',
     meta: [
       {
         hid: 'description',

@@ -100,7 +100,7 @@
               >
                 Portfolio
               </nuxt-link>
-              <nuxt-link
+              <!-- <nuxt-link
                 to="/zakelijk"
                 class="text-gray-300 gold px-3 py-2 text-sm font-medium"
               >
@@ -111,7 +111,7 @@
                 class="text-gray-300 gold px-3 py-2 text-sm font-medium"
               >
                 Overige diensten
-              </nuxt-link>
+              </nuxt-link> -->
               <nuxt-link
                 to="/contact"
                 class="text-gray-300 gold px-3 py-2 text-sm font-medium"
@@ -141,27 +141,6 @@
       :class="menuOpen ? 'hidden' : 'block'"
     >
       <div class="px-2 pt-2 pb-3 space-y-1">
-        <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" -->
-        <!-- <a
-          href="#"
-          class="bg-gray-900 text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Dashboard</a
-        >
-        <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Team</a
-        >
-        <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Projects</a
-        >
-        <a
-          href="#"
-          class="text-gray-300 hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium"
-          >Calendar</a
-        > -->
         <nuxt-link to="/" class="gold px-3 py-2 text-sm font-medium block">
           Home
         </nuxt-link>
@@ -184,18 +163,18 @@
         >
           Portfolio
         </nuxt-link>
-        <nuxt-link
+        <!-- <nuxt-link
           to="/zakelijk"
           class="text-gray-300 gold px-3 py-2 text-sm font-medium block"
         >
           Zakelijk
-        </nuxt-link>
-        <nuxt-link
+        </nuxt-link> -->
+        <!-- <nuxt-link
           to="/overige-diensten"
           class="text-gray-300 gold px-3 py-2 text-sm font-medium block"
         >
           Overige diensten
-        </nuxt-link>
+        </nuxt-link> -->
         <nuxt-link
           to="/contact"
           class="text-gray-300 gold px-3 py-2 text-sm font-medium block"

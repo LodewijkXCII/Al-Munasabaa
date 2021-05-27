@@ -13,10 +13,9 @@
     </div>
     <div class="links text-xs gold container mx-auto text-center my-3">
       <nuxt-link to="/" class="mx-2">Home</nuxt-link>
-      <nuxt-link to="/" class="mx-2">Wie zijn wij</nuxt-link>
-      <nuxt-link to="/" class="mx-2">Catering</nuxt-link>
-      <nuxt-link to="/" class="mx-2">Zakelijk</nuxt-link>
-      <nuxt-link to="/" class="mx-2">Impressie</nuxt-link>
+      <nuxt-link to="/#wiezijnwij" class="mx-2">Wie zijn wij</nuxt-link>
+      <nuxt-link to="/#pakketten" class="mx-2">Catering</nuxt-link>
+      <nuxt-link to="/portfolio" class="mx-2">Impressie</nuxt-link>
     </div>
   </footer>
 </template>
