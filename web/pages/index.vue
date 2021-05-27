@@ -152,6 +152,7 @@ export default {
     "paketten": *[_type == 'paketten']{ ..., 'decoraties': decoraties[]->, 'gerechten':gerechten[]->}
   }
 `
+    // const client =
     const response = await sanityClient.fetch(query)
     this.paketten = response
   }
