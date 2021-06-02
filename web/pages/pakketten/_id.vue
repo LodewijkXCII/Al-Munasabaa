@@ -45,7 +45,7 @@
           :key="decoratie._id"
         >
           <img
-            src="https://picsum.photos/400/600/?random"
+            :src="imageUrlFor(pakket.headerimg)"
             alt=""
             class="w-full h-48 sm:h-56 object-cover"
           />
@@ -95,7 +95,12 @@
 <script>
 import groq from 'groq'
 import sanityClient from '~/sanityClient'
+
 import _ from 'lodash'
+
+import imageUrlBuilder from '@sanity/image-url'
+
+const imageBuilder = imageUrlBuilder(sanityClient)
 
 export default {
   data() {
@@ -104,19 +109,30 @@ export default {
       gerechten: []
     }
   },
+  methods: {
+    imageUrlFor(source) {
+      return imageBuilder.image(source)
+    }
+  },
   async mounted() {
     const params = this.$route.params.id
+    console.log(params)
 
-    const query = groq`
-  {
+    const query = `{  
     "paketten": *[_type == 'paketten' && slug.current == "${params}"]{ ..., 'decoraties': decoraties[]->, 'gerechten':gerechten[]->}
   }
 `
-    const response = await sanityClient.fetch(query)
-    const data = response
-    this.pakket = data.paketten[0]
-    const gerechten = data.paketten[0].gerechten
-    this.gerechten = _.groupBy(gerechten, 'course')
+
+    try {
+      console.log(newQuery)
+      const { data } = await sanityClient.fetch(query)
+      console.log(data)
+      this.pakket = data.paketten[0]
+      const gerechten = data.paketten[0].gerechten
+      this.gerechten = _.groupBy(gerechten, 'course')
+    } catch (error) {
+      console.error(error)
+    }
   }
 }
 </script>

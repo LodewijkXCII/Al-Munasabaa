@@ -1,6 +1,6 @@
 <template>
-  <div class="bg-gray-700">
-    <div class="px-10 py-6 mb-4 text-center">
+  <div class="bg-gray-700 relative min-h-full">
+    <div class="px-6 py-6 mb-4 text-center">
       <div class="text-2xl font-bold gold mb-4 uppercase">
         {{ titel }}
       </div>
@@ -9,7 +9,7 @@
         <span class="text-xs block">(excl BTW)</span>
       </p>
     </div>
-    <div class="px-10 mb-8">
+    <div class="px-6 mb-8">
       <div class="my-4">
         <h4 class="gold font-bold text-lg ">
           Decoratielijn naar keuze:
@@ -31,7 +31,9 @@
         <p>{{ diner }}</p>
       </div>
     </div>
-    <button class="w-full text-lg h-16 text-white font-extrabold bg-gold">
+    <button
+      class="w-full text-lg h-16 text-white font-extrabold bg-gold absolute -bottom-10"
+    >
       <nuxt-link :to="`/pakketten/${slug}`">Bekijk details</nuxt-link>
     </button>
   </div>

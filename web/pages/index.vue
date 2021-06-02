@@ -99,7 +99,7 @@
         <h2 class="gold text-4xl font-bold text-center mb-6">
           De verschillende Pakketten
         </h2>
-        <div class="grid md:grid-cols-4 p-8 gap-8 m-5">
+        <div class="grid md:grid-cols-5 p-8 gap-4 m-5">
           <Paketten
             v-for="pakket in paketten.paketten"
             :key="pakket.id"
@@ -149,7 +149,7 @@ export default {
   async created() {
     const query = groq`
   {
-    "paketten": *[_type == 'paketten']{ ..., 'decoraties': decoraties[]->, 'gerechten':gerechten[]->}
+    "paketten": *[_type == 'paketten']{ ..., 'decoraties': decoraties[]->, 'gerechten':gerechten[]->}| order(prijs asc)
   }
 `
     // const client =
